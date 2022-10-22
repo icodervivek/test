@@ -17,9 +17,9 @@ print(colored('''
 
 
 urname = input("Enter username: ")
-if(urname == "Vivs" or urname == "Vivshacx" or urname == "vivs" or urname == "vivshacx"):
+if urname == "Vivs" or urname == "Vivshacx" or urname == "vivs" or urname == "vivshacx":
     urpassword = input("Enter password: ")
-    if(urpassword == "1234" or urpassword == "vivs"):
+    if urpassword == "1234" or urpassword == "vivs":
         print("Loggedin Successfully...")
     else:
         print("Incorrect Password")
